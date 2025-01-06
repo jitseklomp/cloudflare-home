@@ -1,0 +1,40 @@
+baseURL = 'https://klomp.cloud/'
+languageCode = 'en-us'
+title = 'Hello World!'
+
+theme        = "hello-friend-ng"
+
+[params]
+  homeSubtitle = "This is a placeholder. Nothing to see here..."
+  enableSharingButtons = false
+  enableGlobalLanguageMenu = false
+  [params.author]
+    name = "Jitse Klomp"
+  [params.footer]
+    trademark = 2025
+    author = true
+
+    bottomText = [
+      "Powered by <a href=\"http://cloudflare.com\">Cloudflare</a> & <a href=\"http://gohugo.io\">Hugo</a>"
+    ]
+
+  [params.logo]
+    logoMark     = "$"
+    logoText     = "whoami"
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+    # logoCursorDisabled = false
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoCursorColor    = "#67a2c9"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    # logoCursorAnimate  = "2s"
+    # Append the current url pathname to logoText 
+    # logoCursorPathname = true
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/jitseklomp"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/jitseklomp"
